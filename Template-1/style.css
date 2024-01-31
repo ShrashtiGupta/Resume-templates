@@ -6,12 +6,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Arial', sans-serif; /* Updated font family */
 }
 
 /* Styling the body and centering content */
 body {
-    background: lightblue;
+    background: #f4dcbb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@ body {
 /* Styling the left side of the container */
 .container .left_Side {
     position: relative;
-    background: #003147;
+    background: #af660ca3;
     padding: 40px;
 }
 
@@ -106,13 +106,18 @@ body {
     margin-bottom: 20px;
 }
 
+p {
+    text-align: justify;
+    text-justify: inter-word
+}
+
 /* Styling the education section */
 .contactInfo .education li {
     margin-bottom: 15px;
 }
 
 .contactInfo.education h5 {
-    color: #03a9f4;
+    color: 7E63634;
     font-weight: 500;
 }
 
@@ -196,7 +201,8 @@ p {
     left: 0;
     height: 100%;
     width: var(--percentage, 0%);
-    background: #03a9f4;
+    background: #af660ca3;
+
 }
 
 /* Media Queries for responsiveness */
