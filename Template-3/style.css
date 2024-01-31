@@ -1,0 +1,36 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    margin-bottom: 25px;
+}
+
+.header,
+.footer {
+    background-image: linear-gradient(90deg,
+            hsl(345deg 70% 82%) 0%,
+            hsl(339deg 52% 80%) 8%,
+            hsl(330deg 36% 79%) 17%,
+            hsl(312deg 22% 77%) 25%,
+            hsl(273deg 19% 77%) 33%,
+            hsl(236deg 23% 77%) 42%,
+            hsl(216deg 34% 75%) 50%,
+            hsl(213deg 37% 76%) 58%,
+            hsl(209deg 40% 77%) 67%,
+            hsl(206deg 43% 78%) 75%,
+            hsl(203deg 46% 79%) 83%,
+            hsl(201deg 49% 80%) 92%,
+            hsl(198deg 53% 81%) 100%);
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.footer {
+    padding: 20px;
+}
+
+.container {
+    border: 2px solid black;
+    background-color: aliceblue;
+}
